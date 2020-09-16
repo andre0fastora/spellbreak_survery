@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <h1 id="title">Spellbreak Survey</h1>
+        <p id="description">Please fill out our survey so we can learn more about our players.</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:</label>
+            <input id=name name="name" type="text" placeholder="First-Name Last-Name" required>
+            <br>
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="email@website.com" required>
+            <br>
+            <label id="number-label" for="age">Age (optional):</label>
+            <input id="number" name="age" type="number" max= 110 min="18" placeholder="18">
+            <br>
+            <label for="gamemode">Which game mode do you prefer?</label>
+            <br>
+            <select id="dropdown" name="gamemode" >
+                <option value="solo">Solo</option>
+                <option value="duo">Duo</option>
+                <option value="Squad">Squad</option>
+            </select>
+            <br>
+            <label for="class">Which class do you like to play as?</label>
+            <br>
+            <select id="class" name="class" >
+                <option value="frostborn">Frostborn</option>
+                <option value="conduit">Conduit</option>
+                <option value="pyromancer">Pyromancer</option>
+                <option value="toxicologist">Toxicologist</option>
+                <option value="stoneshaper">Stoneshaper</option>
+                <option value="tempest">Tempest</option>
+            </select>
+            <br>
+            <p>Did you participate in the Spellbreak Beta?</p>
+            <label for="beta">Yes</label>
+            <input name="beta" value="yes" type="radio">
+            <label for="beta">No</label>
+            <input name="beta" value="yes" type="radio">
+            <br>
+            <p>Which other Battle Royal games do you enjoy?</p>
+            <label for="cod">COD: WARZONE</label>
+            <input name="cod" type="checkbox" value="COD:WARZONE">
+            <br>
+            <label for="apex">Apex</label>
+            <input name="apex" type="checkbox" value="Apex">
+            <br>
+            <label for="fortnite">Fortnite</label>
+            <input name="fortnite" type="checkbox" value="Fortnite">
+            <br>
+            <label for="pubg">PUBG</label>
+            <input name="pubg" type="checkbox" value="Pubg">
+            <br>            
+            <label for="comments">Any additional Comments?</label>
+            <br>
+            <textarea name="comments"></textarea>
+             <br>
+
+            
+            <button id="submit" type="submit">Submit</button> <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
