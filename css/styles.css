@@ -1,5 +1,6 @@
 body {
-    background-color: lightblue;
+  
+    text-align: center;
     
 
     
@@ -7,4 +8,18 @@ body {
 
 #survey-form {
     background-color: #EDCE7C;
+}
+
+form {
+    width:50%;
+    margin: auto;
+    
+}
+
+input,
+p,
+label,
+select,
+img {
+    margin: 2%;
 }
